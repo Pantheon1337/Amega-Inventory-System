@@ -1,0 +1,205 @@
+{
+  "devices": [
+    {
+      "name": "ПК-DEMO-001",
+      "inventory_number": "DEMO-001",
+      "model": "Dell OptiPlex 7090",
+      "serial_number": "DEMO123456",
+      "user": "Иванов Иван",
+      "department": "IT отдел",
+      "status": "in_use",
+      "category": "ПК",
+      "office": "Главный офис",
+      "cpu": "Intel Core i7-11700",
+      "ram": "32 ГБ DDR4",
+      "drives": "SSD 1TB",
+      "gpu": "Intel UHD Graphics 750",
+      "monitor": "Dell P2419H 24\"",
+      "monitor2": "",
+      "monitor_price": 15000,
+      "monitor2_price": 0,
+      "price": 85000,
+      "os": "Windows 11 Pro",
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z",
+      "id": 1705312800000
+    },
+    {
+      "name": "Ноутбук-DEMO-002",
+      "inventory_number": "DEMO-002",
+      "model": "Lenovo ThinkPad X1 Carbon",
+      "serial_number": "DEMO789012",
+      "user": "Петрова Анна",
+      "department": "Маркетинг",
+      "status": "in_use",
+      "category": "Ноутбук",
+      "office": "Офис маркетинга",
+      "cpu": "Intel Core i5-1240P",
+      "ram": "16 ГБ LPDDR5",
+      "drives": "SSD 512 ГБ",
+      "gpu": "Intel Iris Xe Graphics",
+      "monitor": "Встроенный 14\"",
+      "monitor2": "",
+      "monitor_price": 0,
+      "monitor2_price": 0,
+      "price": 120000,
+      "os": "Windows 11 Pro",
+      "created_at": "2024-01-20T14:30:00.000Z",
+      "updated_at": "2024-01-20T14:30:00.000Z",
+      "id": 1705758600000
+    }
+  ],
+  "networkDevices": [
+    {
+      "name": "Коммутатор-DEMO-001",
+      "inventory_number": "NET-DEMO-001",
+      "model": "Cisco Catalyst 2960",
+      "serial_number": "NET123456",
+      "user": "",
+      "department": "IT отдел",
+      "status": "in_use",
+      "category": "Коммутатор",
+      "office": "Серверная",
+      "ports": 24,
+      "speed": "1 Гбит/с",
+      "price": 45000,
+      "id": 1705312800001,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    }
+  ],
+  "storageItems": [
+    {
+      "name": "SSD Samsung 870 EVO",
+      "inventory_number": "STOR-DEMO-001",
+      "category": "Комплектующие",
+      "quantity": 10,
+      "unit": "шт",
+      "price": 8000,
+      "supplier": "ООО ТехноСнаб",
+      "location": "Склад А",
+      "status": "available",
+      "id": 1705312800002,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "name": "Оперативная память DDR4 16GB",
+      "inventory_number": "STOR-DEMO-002",
+      "category": "Комплектующие",
+      "quantity": 5,
+      "unit": "шт",
+      "price": 12000,
+      "supplier": "ООО ТехноСнаб",
+      "location": "Склад А",
+      "status": "available",
+      "id": 1705312800003,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    }
+  ],
+  "employees": [
+    {
+      "name": "Иванов Иван",
+      "department": "IT отдел",
+      "position": "Системный администратор",
+      "email": "i.ivanov@demo-company.com",
+      "phone": "+7 (999) 123-45-67",
+      "id": 1705312800004,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "name": "Петрова Анна",
+      "department": "Маркетинг",
+      "position": "Маркетолог",
+      "email": "a.petrova@demo-company.com",
+      "phone": "+7 (999) 234-56-78",
+      "id": 1705312800005,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "name": "Сидоров Петр",
+      "department": "IT отдел",
+      "position": "Руководитель IT отдела",
+      "email": "p.sidorov@demo-company.com",
+      "phone": "+7 (999) 345-67-89",
+      "id": 1705312800006,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    }
+  ],
+  "history": [
+    {
+      "table_name": "devices",
+      "record_id": 1705312800000,
+      "action": "create",
+      "user": "admin",
+      "timestamp": "2024-01-15T10:00:00.000Z",
+      "id": 1705312800007
+    },
+    {
+      "table_name": "devices",
+      "record_id": 1705758600000,
+      "action": "create",
+      "user": "admin",
+      "timestamp": "2024-01-20T14:30:00.000Z",
+      "id": 1705312800008
+    },
+    {
+      "table_name": "network_devices",
+      "record_id": 1705312800001,
+      "action": "create",
+      "user": "admin",
+      "timestamp": "2024-01-15T10:00:00.000Z",
+      "id": 1705312800009
+    }
+  ],
+  "mfu": [
+    {
+      "name": "МФУ HP LaserJet Pro M404n",
+      "inventory_number": "MFU-DEMO-001",
+      "model": "HP LaserJet Pro M404n",
+      "serial_number": "MFU123456",
+      "user": "",
+      "department": "IT отдел",
+      "status": "in_use",
+      "category": "Принтер",
+      "office": "Главный офис",
+      "print_speed": "40 стр/мин",
+      "resolution": "1200x1200 dpi",
+      "price": 25000,
+      "id": 1705312800010,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    }
+  ],
+  "serverEquipment": [
+    {
+      "name": "Сервер Dell PowerEdge R740",
+      "inventory_number": "SRV-DEMO-001",
+      "model": "Dell PowerEdge R740",
+      "serial_number": "SRV123456",
+      "user": "",
+      "department": "IT отдел",
+      "status": "in_use",
+      "category": "Сервер",
+      "price": 350000,
+      "hard_disk_size": 2,
+      "hard_disk_count": 8,
+      "hard_disk_price": 15000,
+      "hard_disks_details": [
+        {
+          "size": 2,
+          "count": 8,
+          "price": 15000,
+          "model": "Seagate Exos 7E2000"
+        }
+      ],
+      "id": 1705312800011,
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2024-01-15T10:00:00.000Z"
+    }
+  ]
+}
